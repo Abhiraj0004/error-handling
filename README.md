@@ -1,5 +1,5 @@
 # project functions and error
-First in all open remix application for compile code solidity ethereum blockchain.
+First in all open remix application for compile code solidity0.8.18 ethereum blockchain.
 
 This is a basic token contract written in Solidity for the Ethereum blockchain. It includes the following features:
  contract my token and then use construction in this code and sender the owner msg. 
@@ -27,7 +27,8 @@ burn: write the function burn and place the address and unit values and public o
 
  transfer: write the function transfer and place the address reciver and uint value.require Functionality and msg sender balances is greater than as equal value Account balance must be greater then transfered value!. Decrease the balance of the specifier msg.sender specifier amount.Increase the balance of the specifier msg.sender specifier amount..And used emit keyword are used trigger event place the msg.sender, reciver and value.      
 
- compile the code solidity compiler pragma solidity 0.8.18then goto deploy&run transaction and deploy the code.
+
+
 
  ## Deployment 
  To use this contract, you can deploy it on the Ethereum blockchain and then use the mint and burn functions to manage the token supply and balance through
