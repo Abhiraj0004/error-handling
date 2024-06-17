@@ -21,7 +21,7 @@ contract myToken {
     error InsufficientBalance(uint balance, uint withdrawalAmount);
 
     // mapping variable here
-    mapping(address => uint256) public balances;
+    mapping(address => uint) public balances;
 
     //modifiers
     modifier onlyowner {
@@ -47,7 +47,7 @@ contract myToken {
         }
     }
 
-    function transfer(address _reciver, uint256 _value) public {
+    function transfer(address _reciver, uint _value) public {
         require(
             balances[msg.sender] >= _value,
             "Account balance must be greater then transfered value!"
