@@ -14,7 +14,7 @@ contract myToken {
 
     // emits events
     event mint(address indexed to, uint amount);
-    event burn(address indexed to, uint amount);
+    event burn(address indexed from, uint amount);
     event Transfer(address indexed from, address indexed to, uint amount);
 
     //errors
